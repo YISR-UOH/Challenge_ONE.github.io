@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Encriptador</title>
+</head>
+<body>
+
+  <main class="content">
+
+    <div class="content-input">
+
+      <textarea id="text" placeholder="Ingrese el texto aqui"></textarea>
+      <div class="button">
+
+        <input type="button" class="butt-encrypt" onclick ='encrypt()' value="Encriptar">
+  
+        <input type="button" class="butt-decrypt" onclick ='desencrypt()' value="Desencriptar">
+  
+      </div>
+    </div>
+
+    <div class="content-result">
+      
+      <textarea id="result" placeholder="Ingresa el texto que desees encriptar o desencriptar" readonly></textarea>
+      
+
+      <div class="button">
+        <input type="button" class="butt-copy" onclick ='copiar()' value="Copiar">
+      </div>
+    </div>
+
+  </main>
+    <div class="footer">
+      About
+      <p>Programa ONE Latam 2022 G3</p>
+      <p>Yerko Sepulveda Rojas</p>
+      <a href="https://github.com/YISR-UOH">GITHUB</a>
+
+    </div>
+</body>
+</html>
